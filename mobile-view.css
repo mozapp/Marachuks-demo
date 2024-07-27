@@ -1,0 +1,642 @@
+@media screen and (max-width: 1332px) {
+
+    .main-header{
+        background-color: var(--site-main-color); 
+    }
+    
+    .logo{
+        font-size: 2.1rem;
+        margin: 1.9rem 1.8rem 1.4rem 5rem;
+    }
+    
+    .main-nav a{
+        display: block;
+        padding: 15px;
+        height: 100%;
+        padding-top: 30px;
+    }
+    
+    .account{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: 20px;
+        height: 100%;
+        margin: 0 5rem 0 auto;
+    }
+    .account a{
+        height: 100%;
+        padding: 2.0rem;
+    }
+
+
+    /*STAFF MEMEBER*/
+    .staff-member{
+        margin-top: 30px;
+        border-radius: 5px;
+        border: 2px solid green;
+        height: 28rem;
+        width: 20rem;
+    }
+    
+    .staff-member img{
+        width: 20rem;
+        height: 20rem;
+    }
+    
+
+}    
+
+@media screen and (max-width: 1325px) {
+
+    .main-header{
+        background-color: var(--site-main-color); 
+    }
+    
+    .gallary-note-one{
+        display: flex;
+        background-color: rgba(165, 223, 163, 0.267);
+        border-top-left-radius: 10px;
+        width: 50rem;
+        height: 200px;
+        top: 55px;
+        left: 50px;
+        position: absolute;
+    }
+    
+    .gallary-note-one img{
+        height: 100%;
+        width: 180px;
+    }
+    .gallary-note-1{
+        padding: 10px;
+    }
+    
+    .gallary-note-1 h2{
+        padding-bottom: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .gallary-note-1 p{
+        padding-bottom: 7px;
+        font-size: 14px;
+        padding-top: 7px;
+    }
+
+    /*gallary-note-two*/
+        
+    .gallary-note-two{
+        display: flex;
+        background-color: rgba(165, 223, 163, 0.267);
+        border-top-left-radius: 10px;
+        width: 50rem;
+        height: 200px;
+        top: 55px;
+        right: 100px;
+        position: absolute;
+    }
+    
+    .gallary-note-two img{
+        height: 100%;
+        width: 180px;
+    }
+    .gallary-note-2{
+        padding: 10px;
+    }
+    
+    .gallary-note-2 h2{
+        padding-bottom: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .gallary-note-2 p{
+        padding-bottom: 7px;
+        font-size: 14px;
+        padding-top: 7px;
+    }
+    
+    /*STAFF MEMEBER*/
+    .staff-member{
+        margin-top: 30px;
+        border-radius: 5px;
+        border: 2px solid green;
+        height: 28rem;
+        width: 20rem;
+    }
+    
+    .staff-member img{
+        width: 20rem;
+        height: 20rem;
+    }
+    
+} 
+
+
+@media screen and (max-width: 1220px) {
+
+    .gallary-note-one{
+        left: 30px;
+    }
+
+    .gallary-note-two{
+        right: 60px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+
+   .gallary-note-one{
+        left: 10px;
+    }
+
+    .gallary-note-two{
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+
+    .gallary-note-one{
+        left: -10px;
+    }
+
+    .gallary-note-two{
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .gallary-note-one{
+        left: -20px;
+    }
+
+    .gallary-note-two{
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+
+    .gallary-note-one{
+        width: 45rem;
+        height: 200px;
+        top: 50px;
+        left: -10px;
+    }
+        
+    .gallary-note-1 h2{
+        font-size: 12px;
+    }
+    
+    .gallary-note-1 p{
+        font-size: 12px;
+    }
+
+    /*gallary-note-two*/
+    .gallary-note-two{
+        width: 45rem;
+        height: 200px;
+        top: 50px;
+        right: 40px;
+    }
+        
+    .gallary-note-2 h2{
+        font-size: 12px;
+    }
+    
+    .gallary-note-2 p{
+        font-size: 12px;
+    }
+
+    .brand-img-4{
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .main-header{
+        width: 1;
+    }
+    .brand-vision-main{
+        width: 100%;
+        height: 50vh;
+        padding-top: 35px;
+    }
+    
+    .brand-img-mission{
+        margin-right: 10px;
+        width: 200px;
+    }
+    
+    .brands-image{
+        width: 100%;
+    }
+
+    .brand-img-performance{
+        width: 200px;
+    }
+
+    .brands-vision {
+        width: 100%;
+    }
+
+    /*Gallary*/
+    
+    .gallary-note-one{
+        width: 38rem;
+        height: 200px;
+        top: 50px;
+        left: -10px;
+    }
+
+    .gallary-note-1 h2{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .gallary-note-1 p{
+        font-size: 11px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .gallary-note-one img{
+        height: 100%;
+        width: 140px;
+    }
+
+     /*gallary-note-two*/
+    .gallary-note-two{
+        width: 38rem;
+        height: 200px;
+        top: 50px;
+        right: 40px;
+    }
+   
+    .gallary-note-2 h2{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .gallary-note-2 p{
+        font-size: 11px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .gallary-note-two img{
+        height: 100%;
+        width: 140px;
+    }
+
+}
+
+@media screen and (max-width: 861px) {
+
+    .main-header{
+        position: fixed;
+        width: 1;
+    }
+
+    .main-nav{
+        position: fixed;
+        right: -500px;
+        transition: .5s;
+        height: 100vh;
+        width: 40%;
+        margin-top: 60px;
+        padding: 70px 0 0 15px;
+        text-align:justify;
+        background-color: rgba(7, 114, 7, 0.637);
+        z-index: 999;
+    }
+
+    .main-nav ul{
+        display: block;
+    }
+
+    .main-nav ul li{
+        border-bottom: 1pt solid #252525;
+        width: 300px;
+    }
+
+    .main-nav a:hover{
+        width: 250px;
+        background: rgba(240, 137, 3, 0.329);
+    }
+
+    a,button{
+        cursor: pointer;
+    }
+    .hambuger, .bar{
+        position: fixed;
+    }
+
+    .hambuger{
+        height: 30px;
+        width: 30px;
+        display: block;
+        top: 5%;
+        left: 95%;
+        transform: translateY(-50%);
+        border: 0;
+        background: (0 0);
+        z-index: 1000;
+    }
+
+    .bar{
+        top: 3px;
+        background: #fff;
+        width: 100%;
+        height: 4px;
+        transition: all .3s ease-in;
+    }
+
+    #bar1{
+        top: 4px;
+    }
+    #bar2{
+        top: 11px;
+    }
+    #bar3{
+        top: 19px;
+    }
+
+    .main-nav.active{
+        right: 0;
+    }
+
+    .hambuger.open #bar1{
+        background-color: #fff;
+        transform: rotate(45deg) translate(6px, 5px);
+    }
+
+    .hambuger.open #bar2{
+        background-color: transparent;
+    }
+
+    .hambuger.open #bar3{
+        background-color: #fff;
+        transform: rotate(-45deg) translate(6px, -5px);
+    }
+
+
+    .brand-vision-main{
+        width: 100%;
+        height: 50vh;
+        padding-top: 35px;
+    }
+    
+    .brand-img-mission{
+        margin-right: 10px;
+        width: 200px;
+    }
+    
+    .brands-image{
+        width: 100%;
+    }
+
+    .brand-img-performance{
+        width: 200px;
+    }
+
+    .brands-vision {
+        width: 100%;
+    }
+
+    /*GALLARY SECTION*/
+    .gallary{
+        height: 80vh;
+    }
+
+    .gallary-note-two{
+        width: 80%;
+        right: 8%;
+        top: 53%;
+    }
+
+    .gallary-note-2 h2{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .gallary-note-2 p{
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .gallary-note-two img{
+        width: 180px;
+    }
+
+    
+    .gallary-note-one img, .gallary-note-two img{
+        height: auto;
+    }
+    .gallary-note-one, .gallary-note-two{
+        height: fit-content;
+    }
+
+
+    .gallary-note-one{
+        width: 80%;
+        left: 4%;
+        top: 7%;
+    }
+
+    .gallary-note-1 h2{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .gallary-note-1 p{
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .gallary-note-one img{
+        width: 180px;
+    }
+
+    .brands-vision{
+        padding-right: 25px;
+    }
+
+    .brand-img-mission{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .brand-img-mission p{
+        margin-left: 20%;
+    }
+
+    .brand-img-vision, .brand-img-value, 
+    .brand-img-performance, .brand-img-value{
+        margin-left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 645px){
+    .hambuger{
+        left: 90%;
+    }
+
+    .account{
+        margin-right: 80px;
+    }
+
+    .gallary-note-one{
+        margin-top: 5px;
+    }
+
+    .gallary-note-1 h2{
+        font-size: 16px;
+    }
+    
+    .gallary-note-1 p{
+        font-size: 13px;
+    }
+
+    .gallary-note-two{
+        margin-top: 5px;
+    }
+
+    .gallary-note-2 h2{
+        font-size: 16px;
+    }
+    
+    .gallary-note-2 p{
+        font-size: 13px;
+    }
+
+    /*Brand vision main*/
+
+    .brand-vision-main{
+        padding-top: 0;
+    }
+    .brands-vision{
+        justify-content: center;
+    }
+
+    .brand-img-mission{
+        width: 4.5rem;
+        height: 3rem;
+    }
+    .brand-img-performance p, .brand-img-vision p, 
+    .brand-img-mission p, .brand-img-value p{
+        width: fit-content;
+        height: fit-content;
+        padding-top: 5px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .brand-img-performance, .brand-img-vision, 
+    .brand-img-mission, .brand-img-value{
+        width: 50%;
+        height: fit-content;
+        margin: 0 20px 0 20px;
+        justify-content: center;
+    }
+
+    .brand-img-performance img, .brand-img-vision img, 
+    .brand-img-mission img, .brand-img-value img{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .brand-img-performance img, .brand-img-vision img, 
+    .brand-img-value img{
+        margin-left: 5px;
+        
+    }
+
+    .board-members{
+        padding: 20px 50px;
+        height: 85%;
+    }
+    .staff-member{
+        width: 40%;
+        height: 50%;
+        margin-top: 10px;
+    }
+    .staff-member img{
+        width: fit-content;
+        height: 150px;
+    }
+    .staff-member h2, .staff-member span{
+        font-size: 14px;
+    }
+
+    .footer-main{
+        height: 60vh;
+        padding: 40px 20px 100px 20px;
+        column-gap: 30px;
+    }
+
+    .footer-header{
+        width: 150px;
+    }
+    .footer-header h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .footer-header p{
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .footer-link{
+        margin-bottom:auto;
+    }
+    .footer-link h2{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .footer-link a, .footer-link p{
+        font-size: 12px;
+    }
+
+    .copyright{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 618px) {
+    .gallary-note-one {
+        margin-left: 30px;
+        height: 200px;
+    }
+    .gallary-note-one img, .gallary-note-two img{
+        height: 100%;
+        width: 110px;
+    }
+
+    .gallary-note-two {
+        margin-right: 20px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 531px) {
+    
+}
+
+@media screen and (max-width: 460px) {
+    
+}

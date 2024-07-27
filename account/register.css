@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(image/formbg.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.container{
+    width: 50%;
+    height: 400px;
+     background: #fff;
+     margin: 0 auto;
+     border: 2px solid #fff;
+     box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(image/formbg.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container .right{
+    float: right;
+    width: 50%;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+.formBox{
+    width: 100%;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+}
+
+.formBox input{
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.formBox input[type="text"],
+.formBox input[type="email"],
+.formBox input[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 30px;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="email"]:focus,
+.formBox input[type="password"]:focus
+{
+    border-bottom: 2px solid #262626;
+}
+
+.formBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+
+.formBox input[type="submit"]:hover
+{
+    background: #a6af13;
+}
+
+.formBox a{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+a,button{
+    cursor: pointer;
+    color: #fff;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 250px;
+}
+
+.navigation{
+    position: fixed;
+    right: -500px;
+    width: 350px;
+    height: 100%;
+    background-color: #000;
+    transition: .5s;
+}
+
+.navigation ul li{
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    border-bottom: 1pt solid #252525;   
+}
+
+.hamburger, .bar{
+    position: fixed;
+}
+
+.hamburger{
+    display: block;
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    border: 0;
+    background: 0 0;
+}
+
+.bar{
+    top: 3px;
+    background: #000;
+    width: 100%;
+    height: 4px;
+    transition: all .3s ease-in;
+}
+
+#bar2{
+    top: 11px;
+}
+
+#bar3{
+    top: 19px;
+}
+
+.navigation.active{
+    right: 0;
+}
+
+.hamburger.open #bar1{
+    background-color: #fff;
+    transform: rotate(45deg) translate(6px, 5px);
+}
+.hamburger.open #bar2{
+    background-color: transparent;
+}
+.hamburger.open #bar3{
+    background-color: #fff;
+    transform: rotate(-45deg) translate(6px, -5px);
+}

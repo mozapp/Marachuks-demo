@@ -1,0 +1,213 @@
+:root{
+    --site-main-color : rgb(7, 114, 7);
+    --site-font-color : #fff;
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    cursor: pointer;
+}
+
+/*HEADER START HERE*/
+.main-header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(7, 114, 7, 0.829);
+    display: flex;
+    color: var(--site-font-color);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 2.6rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5rem;
+}
+.logo span{
+    color: rgba(243, 211, 199, 0.815);
+    font-style: italic;
+}
+
+.main-nav {
+    width: auto;
+    display: flex;
+    line-height: 60%;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.main-nav a:hover{
+    background: rgba(3, 27, 240, 0.329);
+}
+
+.account{
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-top: 20px;
+    height: 100%;
+}
+.account a{
+    height: 100%;
+    padding: 2.3rem;
+}
+
+.account a:hover{
+    background: rgba(3, 27, 240, 0.329);
+}
+
+/*HEADER END HERE*/
+
+/*HERO SECTION START HERE*/
+.hero-section{
+    background-image: url(images/Heineken.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 60px;
+}
+
+.hero-back-cover{
+    padding: 10% 0 0 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.hero-back-cover h1{
+    margin-bottom: 5px;
+    font-size: 3.8rem;
+    color: red;
+}
+
+.hero-back-cover p{
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero-back-cover span{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.hero-back-cover a{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.733);
+    font-size: 1.6rem;
+    border-radius: 3px;
+}
+.hero-back-cover a:hover{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.rate-header{
+    background-color: #000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+}
+.rate-header p{
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+.rate-header a{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background-color: red;
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+}
+.rate-header a:hover{
+    color: #fff;
+    background-color: rgb(15, 95, 5);
+}
+/*HERO SECTION END HERE*/
+
+
+/*FOOTER SECTION*/
+
+.footer-main{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    column-gap: 100px;
+    padding: 30px 50px 0 50px;
+    justify-content: center;
+}
+
+.footer-main a:hover{
+    color: rgb(245, 101, 6);
+    transition: all ease-in-out 200ms;
+}
+
+.footer-header{
+    width: 200px;
+}
+
+.footer-header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff0000;
+    border-bottom: #fff solid 2px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.footer-header p{
+    font-size: 14px;
+}
+
+.footer-link{
+    font-size: 14px;
+    line-height: 20px;    
+}
+
+.footer-link h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+    justify-content:center ;
+}
+.copyright span{
+    font-size: 12px;
+    padding: 20px 0 0 30px;
+}

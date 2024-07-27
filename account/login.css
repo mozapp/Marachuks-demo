@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+.formBox{
+    position: relative;
+    height: 300px;
+    width: 20%;
+    background-color: #2727ff27;
+    margin: 10% auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 10px 10px;
+}
+
+.formBox input{
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.formBox input[type="email"]{
+    margin-top: 30px;
+}
+
+.formBox input[type="email"],
+.formBox input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 30px;
+    
+}
+
+.formBox input[type="email"]:focus,
+.formBox input[type="password"]:focus{
+    border-bottom: 2px solid #000;
+}
+
+.profile{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(174, 174, 243, 0.76);
+    border-radius: 100%;
+    top: -60px;
+    right: 85px;
+}
+
+
+
+/*-----------------------------------*/
+a,button{
+    cursor: pointer;
+    color: #fff;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 200px;
+}
+
+.navigation{
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    background-color: #000;
+    transition: .5s;
+    left: -500px;
+}
+
+.navigation ul li{
+    color: #fff;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    border-bottom: 1pt solid #252525;  
+}
+
+.hamburger, .bar{
+    position: fixed;
+}
+
+.hamburger{
+    display: block;
+    top: 5%;
+    left: 2%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    border: 0;
+    background: 0 0;
+}
+
+.bar{
+    top: 3px;
+    background: #000;
+    width: 100%;
+    height: 4px;
+    transition: all .3s ease-in;
+}
+
+#bar2{
+    top: 11px;
+}
+
+#bar3{
+    top: 19px;
+}
+
+.navigation.active{
+    left: 0;
+}
+
+.hamburger.open #bar1{
+    background-color: rgb(241, 8, 8);
+    transform: rotate(45deg) translate(6px, 5px);
+}
+.hamburger.open #bar2{
+    background-color: transparent;
+}
+.hamburger.open #bar3{
+    background-color: rgb(7, 100, 7);
+    transform: rotate(-45deg) translate(6px, -5px);
+}
