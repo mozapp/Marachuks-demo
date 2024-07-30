@@ -633,8 +633,83 @@
 
 }
 
-@media screen and (max-width: 531px) {
-    
+@media screen and (max-width: 535px) {
+    body{
+        width: 100%;
+    }
+
+    .main-header{
+        width: 100%;
+    }
+    .account{
+        display: none;
+    }
+    .hambuger{
+        margin: -20px 0 0 -30px;
+        width: 40px;
+    }
+    .hero-section{
+        height: 30vh;
+        width: 100%;
+    }
+
+    .brands-image{
+        display: block;
+        height: 52vh;
+        padding: 10px 85px;
+        display: relative;
+    }
+    .brand-img-1 img, .brand-img-2 img,
+    .brand-img-3 img, .brand-img-4 img{
+        height: 120px;
+        width: fit-content;
+    }
+    .brand-img-1, .brand-img-2{
+        position: absolute;
+        top: 45%;
+        align-self: center;
+        padding: 0;
+        height: 200px;
+        width: 150px;
+        border-radius: 5%;
+        background-color: #fff;
+        margin-bottom: 30px;
+    }
+
+    .brand-img-3, .brand-img-4{
+        position: absolute;
+        padding: 0;
+        top: 65%;
+        align-self: center;
+        height: 200px;
+        border-radius: 5%;
+        width: 150px;
+        background-color: #fff;
+        margin-top: 50px;
+    }
+    .brand-img-2, .brand-img-4{
+        margin-left: 35%;
+    }
+    .gallary-note-one{
+        position: relative;
+        width: 30rem;
+        height: 35rem;
+    }
+    .gallary-note-one img{
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+
+    .bg-image img{
+        height: 30vh;
+        width: fit-content;
+    }
+
+    .footer-main{
+        height: 40vh;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 460px) {
